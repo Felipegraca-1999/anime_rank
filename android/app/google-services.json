@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "769176972888",
+    "project_id": "anime-rank-6d229",
+    "storage_bucket": "anime-rank-6d229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769176972888:android:5ba931645ed4f5160aa42d",
+        "android_client_info": {
+          "package_name": "br.com.gcapps.animerank.anime_rank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769176972888-gf6jmqvoat6qapof4osdoki0jhvud81q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeqMVqB4Guth9uaWkIjUDL6ERvvVDtJsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769176972888-gf6jmqvoat6qapof4osdoki0jhvud81q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "769176972888-1no3oin1pjd9ic0ls6eoc0lvsl87hipe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.gcapps.animerank.animeRank"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
