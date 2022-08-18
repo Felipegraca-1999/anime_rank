@@ -1,6 +1,5 @@
 import 'package:anime_rank/core/repository/auth/auth_repository_interface.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 final _firebaseAuith = FirebaseAuth.instance;
@@ -8,7 +7,7 @@ final _firebaseAuith = FirebaseAuth.instance;
 class AuthRepository implements IAuthRepository {
 
   @override
-  Future<void> signInFirebase(BuildContext context) async {
+  Future<void> signInFirebase() async {
     try {
       final googleSignIn = GoogleSignIn();
       final googleSignInAccount = await googleSignIn.signIn();

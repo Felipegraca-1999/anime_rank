@@ -7,11 +7,10 @@ class ServiceLocator {
   static Future<void> setup() async {
     final i = GetIt.instance;
 
-
+    //glogal cubit
     i.registerLazySingleton<IAuthRepository>(() => AuthRepository());
 
-    // page cubits
+    //page cubits
     i.registerFactory(() => LoginCubit(i.get()));
-   
   }
 }
