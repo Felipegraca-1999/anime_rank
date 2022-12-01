@@ -1,7 +1,7 @@
-import 'package:anime_rank/pages/login/login_cubit.dart';
+import 'package:anime_rank/core/components/custom_buttons.dart';
 import 'package:anime_rank/shared/spacing.dart';
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
+import 'dart:math' as math;
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -13,18 +13,59 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    final loginCubit = GetIt.I.get<LoginCubit>();
+    final width = MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
+    // final loginCubit = GetIt.I.get<LoginCubit>();
 
     return Scaffold(
       body: Container(
+        width: width,
+        height: height,
         decoration: const BoxDecoration(
-          color: Color.fromARGB(255, 255, 255, 255),
+          color: Colors.black,
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: const [
-            SizedBox(height: Spacing.xxl),
-            // Image.asset('assets/images/logo.png'),
+        child: Stack(
+          children: [
+            Positioned(
+              width: width / 1.73,
+              child: Transform.rotate(
+                angle: math.pi / 180,
+                child: Image.asset('assets/images/first_login_image.png'),
+              ),
+            ),
+            Positioned(
+              top: height * 0.15,
+              right: 0,
+              child: SizedBox(
+                width: width / 1.5,
+                child: Image.asset('assets/images/logo.png'),
+              ),
+            ),
+            Positioned(
+              bottom: 0,
+              right: 0,
+              child: SizedBox(
+                width: width / 1.5,
+                child: Image.asset(
+                  'assets/images/second_login_image.png',
+                ),
+              ),
+            ),
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  bottom: Spacing.l,
+                  left: Spacing.m,
+                  right: Spacing.m,
+                ),
+                child: CustomGoogleLoginButton(
+                  fullWidth: true,
+                  label: 'GOOGLE',
+                  onTap: () {},
+                ),
+              ),
+            )
           ],
         ),
       ),
