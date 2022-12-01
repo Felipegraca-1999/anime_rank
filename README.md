@@ -1,16 +1,42 @@
-# anime_rank
+# Anime Rank
 
-A new Flutter project.
+[inglish]() - The purpose of this application is to help people who like anime to look for new anime, review and organize all their watched anime.
 
-## Getting Started
+[Portugues]() - O objetivo dessa aplicação é ajudar as pessoas que gostam de anime a procurarem novos animes, fazer review e organizar todos seus animes assistidos.
 
-This project is a starting point for a Flutter application.
+## UI/UX - FIGMA TELAS
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://user-images.githubusercontent.com/69287434/204971851-b5c3c228-f465-499f-8139-4ab7cb8c6252.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
