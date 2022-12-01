@@ -9,34 +9,22 @@
 ![image](https://user-images.githubusercontent.com/69287434/204971851-b5c3c228-f465-499f-8139-4ab7cb8c6252.png)
 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## INSTALLATION
+[inglish]() - Use your preference ide to build this project.
+
+[Portugues]() - Use a ide que preferir para executar o projeto.
 
 ```bash
-pip install foobar
+Flutter pub get;
+Flutter run --debug;
 ```
 
-## Usage
 
-```python
-import foobar
+## A LITTE BIT ABOUT HOW THE APP WAS CONSTRUCTED
 
-# returns 'words'
-foobar.pluralize('word')
+[inglesh]() - This application was constructed with Flutter; Bloc(Cubit) to state management; GetIt to dependency injection; Firebase to auth, storage and firestore; translate service API; MyAnimeList servie API; Clean archecture using MVVM archecteture;
 
-# returns 'geese'
-foobar.pluralize('goose')
+[portugues]() - Esta aplicação foi construída com Flutter; Bloc(Cubit) para gerenciamento de estado; GetIt para injeção de dependência; Firebase para autenticação, armazenamento e firestore; API do serviço de tradução; API do serviço MyAnimeList; Arquitetura limpa usando arquitetura MVVM;
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
+## LICENSE
 [MIT](https://choosealicense.com/licenses/mit/)
