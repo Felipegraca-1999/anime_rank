@@ -67,7 +67,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '769176972888',
     projectId: 'anime-rank-6d229',
     storageBucket: 'anime-rank-6d229.appspot.com',
-    iosClientId: '769176972888-1no3oin1pjd9ic0ls6eoc0lvsl87hipe.apps.googleusercontent.com',
+    iosClientId:
+        '769176972888-1no3oin1pjd9ic0ls6eoc0lvsl87hipe.apps.googleusercontent.com',
     iosBundleId: 'br.com.gcapps.animerank.animeRank',
   );
 
@@ -77,7 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '769176972888',
     projectId: 'anime-rank-6d229',
     storageBucket: 'anime-rank-6d229.appspot.com',
-    iosClientId: '769176972888-1no3oin1pjd9ic0ls6eoc0lvsl87hipe.apps.googleusercontent.com',
+    iosClientId:
+        '769176972888-1no3oin1pjd9ic0ls6eoc0lvsl87hipe.apps.googleusercontent.com',
     iosBundleId: 'br.com.gcapps.animerank.animeRank',
   );
 }

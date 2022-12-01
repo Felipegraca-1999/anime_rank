@@ -1,5 +1,4 @@
 import 'package:anime_rank/pages/login/login_page.dart';
-import 'package:anime_rank/pages/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 
@@ -16,13 +15,10 @@ class AppRouter {
 
     switch (routeSettings.name) {
       case '/':
-      case splash:
-        page = const SplashPage();
-        break;
       case login:
         page = const LoginPage();
         break;
-      
+
       default:
         page = Container();
     }
